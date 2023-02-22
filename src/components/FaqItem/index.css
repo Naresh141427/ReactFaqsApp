@@ -1,0 +1,33 @@
+.faq-item {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid #d7dae6;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.question-container {
+  display: flex;
+  justify-content: space-between;
+}
+.question {
+  color: #52606d;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.horizontal-rule {
+  width: 100%;
+  color: #d7dae6;
+}
+.answer-text {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
